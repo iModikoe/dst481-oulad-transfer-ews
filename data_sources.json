@@ -1,0 +1,52 @@
+[
+  {
+    "dataset": "oulad",
+    "url": "https://archive.ics.uci.edu/static/public/349/open+university+learning+analytics+dataset.zip",
+    "accessed_utc": "2026-11-13T19:33:26.708349+00:00",
+    "licence": "CC BY 4.0",
+    "archive_sha256": "f2ed1902616c1fe8d2824d872c0b7d2d72be435bf0124d077044fe4be2c6d3e4",
+    "files": [
+      {
+        "file": "data\\oulad\\assessments.csv",
+        "sha256": "9ce92381e4a0ac457f8e251b2eb2c179ed51e023ab30d1d671a0268bd62316ba"
+      },
+      {
+        "file": "data\\oulad\\courses.csv",
+        "sha256": "4f16eee7454b15e109b0a21a0e43be820e6846ed6f9301bb7feb5ab5ad737a75"
+      },
+      {
+        "file": "data\\oulad\\studentAssessment.csv",
+        "sha256": "b1839e17618a5de36b6d189a242d3123f7939a56c8c9ccef0c17b9199c614a6b"
+      },
+      {
+        "file": "data\\oulad\\studentInfo.csv",
+        "sha256": "815fbc3e2de29f79900bc63f0345a35db62c9146afaa1d86e7107b8b3beffc60"
+      },
+      {
+        "file": "data\\oulad\\studentRegistration.csv",
+        "sha256": "bbc87a0de1fe2a9ec6decce1ca6c1a02cf17b54ad3bdcc673fc6413b41c61d47"
+      },
+      {
+        "file": "data\\oulad\\studentVle.csv",
+        "sha256": "52668253d876c5becbcb72185977152700cecab2942aca807fecc3dd54b937f0"
+      },
+      {
+        "file": "data\\oulad\\vle.csv",
+        "sha256": "d7a146497edd0e47ef536144b58796c07b554002d3753e848b8e4cd8a56f4c38"
+      }
+    ]
+  },
+  {
+    "dataset": "uci",
+    "url": "https://archive.ics.uci.edu/static/public/697/predict+students+dropout+and+academic+success.zip",
+    "accessed_utc": "2026-11-13T19:33:29.123026+00:00",
+    "licence": "CC BY 4.0",
+    "archive_sha256": "e90e55fd65ec462ae283ebeb2cca409319e3460ed898d8754f62fb35cc83a65d",
+    "files": [
+      {
+        "file": "data\\uci\\data.csv",
+        "sha256": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae"
+      }
+    ]
+  }
+]

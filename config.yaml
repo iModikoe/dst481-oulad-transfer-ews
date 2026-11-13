@@ -1,0 +1,47 @@
+# Analysis plan — committed BEFORE Phase III execution (Chapter 3, §3.11).
+# Changing anything here after results have been inspected breaks the
+# pre-specification and must be recorded in the run log as a deviation.
+
+paths:
+  oulad: "data/oulad"          # studentInfo.csv, studentRegistration.csv, studentVle.csv, vle.csv, assessments.csv, studentAssessment.csv, courses.csv
+  uci: "data/uci/data.csv"     # UCI Predict Students' Dropout and Academic Success (semicolon-delimited)
+  outputs: "outputs"
+
+censoring:
+  early_cutoff_day: 27         # §3.6.1 "early" = day <= 27 (four complete weeks)
+  active_at_day: 28            # §3.6.1 estimand: still registered at day 28
+
+labels:
+  tier123_positive: ["Fail", "Withdrawn"]
+  tier123_negative: ["Pass", "Distinction"]
+  tier4_positive: ["Withdrawn"]          # OULAD side, Fail excluded
+  tier4_negative: ["Pass", "Distinction"]
+  uci_positive: ["Dropout"]
+  uci_negative: ["Graduate"]             # Enrolled excluded as undetermined
+
+models:
+  seed: 20261212
+  outer_folds: 5
+  inner_folds: 3
+  search_draws: 20             # randomised search draws per model (Appendix B)
+
+evaluation:
+  primary_metric: "roc_auc"
+  bootstrap_resamples: 2000
+  alert_budgets: [0.10, 0.20]
+  calibration_bins: 10
+
+fairness:
+  primary_budget: 0.20         # §3.9.1 fixed alert budget
+  min_group_n: 100             # evaluability rule
+  min_group_positives: 30
+  imd_reference_floor: 40      # national IMD boundary, percent; >= 40 is reference group
+
+stats:
+  alpha: 0.05
+  confirmatory_family:         # §3.8.3 — exactly five, fixed in advance
+    - {kind: "delta_auc", tier: 3, model: "logreg",  hypothesis: "H1"}
+    - {kind: "delta_auc", tier: 3, model: "rf",      hypothesis: "H1"}
+    - {kind: "delta_auc", tier: 3, model: "xgb",     hypothesis: "H1"}
+    - {kind: "delta_eod", tier: 3, attribute: "gender",     hypothesis: "H3"}
+    - {kind: "delta_eod", tier: 3, attribute: "deprivation", hypothesis: "H3"}
