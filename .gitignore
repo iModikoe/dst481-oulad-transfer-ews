@@ -1,0 +1,14 @@
+# Data is never committed: both datasets are openly licensed but large, and the
+# repository must stay reproducible-by-download rather than by redistribution.
+data/
+outputs/
+outputs_test*/
+config_test.yaml
+.venv/
+__pycache__/
+*.pyc
+
+*.log
+transfer_execution.json
+transfer_process.json
+outputs_all_tiers_real.zip
