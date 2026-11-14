@@ -1,0 +1,9 @@
+{
+    "elapsed_seconds":  4735.5698314,
+    "exit_code":  0,
+    "finished_utc":  "2026-11-13T21:49:52.9900744Z",
+    "implementation_commit":  "1e4a0fca34b5fff204632663352cb58ee835152f",
+    "command":  "run_all.py --config config.yaml --tiers 2,3,4",
+    "started_utc":  "2026-11-13T20:30:57.4194010Z",
+    "plan_commit":  "5b4e7739a9f86c5f98a43e7d4e166710c111bb49"
+}

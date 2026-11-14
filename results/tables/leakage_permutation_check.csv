@@ -1,0 +1,4 @@
+repeat,model,shuffled_roc_auc,within_tolerance
+1,L2 logistic regression,0.49992463863617087,True
+2,L2 logistic regression,0.5005916144831422,True
+3,L2 logistic regression,0.5085694866175354,True

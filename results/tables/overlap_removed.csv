@@ -1,0 +1,14 @@
+tier,pair,source_registrations_before_rule,removed_for_target_overlap,pct_removed,target_registrations
+2,AAA 2013->2014,370,30,8.11,348
+2,BBB 2013->2014,3366,100,2.97,3069
+2,DDD 2013->2014,2794,181,6.48,2493
+2,EEE 2013->2014,927,31,3.34,1626
+2,FFF 2013->2014,3437,178,5.18,3162
+2,GGG 2013->2014,924,2,0.22,1514
+3,six modules -> AAA,26835,2,0.01,718
+3,six modules -> BBB,21118,59,0.28,6435
+3,six modules -> CCC,24030,1772,7.37,3523
+3,six modules -> DDD,22266,623,2.8,5287
+3,six modules -> EEE,25000,875,3.5,2553
+3,six modules -> FFF,20954,438,2.09,6599
+3,six modules -> GGG,25115,45,0.18,2438

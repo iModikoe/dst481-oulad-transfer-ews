@@ -1,0 +1,9 @@
+{
+    "elapsed_seconds":  1802.5656298,
+    "exit_code":  0,
+    "finished_utc":  "2026-11-13T20:18:10.8430344Z",
+    "command":  "run_all.py --config config.yaml --tiers 1 --permutation-check",
+    "started_utc":  "2026-11-13T19:48:08.2788707Z",
+    "restart_note":  "Original session ended during fold 1 without an error or completion record. Restarted unchanged.",
+    "config_commit":  "5b4e7739a9f86c5f98a43e7d4e166710c111bb49"
+}

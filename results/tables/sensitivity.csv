@@ -1,0 +1,6 @@
+analysis,specified_in,model,tier3_mean_roc_auc,n_pairs,change_vs_primary,direction_preserved,note
+Withdrawn cases excluded from the at-risk label,§3.6.1,XGBoost,0.7652809130613173,7,0.024876870919822047,True,Any conclusion not surviving this check is reported as conditional.
+Early deregistrations retained (day-28 rule relaxed),§3.6.1,XGBoost,0.7982170827866483,7,0.057813040645153024,False,"Quantifies the cost of the restricted estimand. A large gain here is expected and is trivial separation on absent engagement data, not skill."
+Person-level overlap rule disabled,§3.8.1,XGBoost,0.7413061644656105,7,0.0009021223241152398,True,The difference estimates how much apparent transfer performance in comparable published work may reflect repeated individuals.
+Alternative imbalance treatment (class weighting),§3.6.3,XGBoost,0.7403145459202564,7,-8.949622123888279e-05,True,"Imbalance is a controlled sensitivity analysis, not a research question."
+Sensitive attributes removed from the predictors,§3.9.2,XGBoost,0.7337862264205415,7,-0.006617815720953768,True,Labelled ablation: the accuracy cost of excluding sensitive attributes.

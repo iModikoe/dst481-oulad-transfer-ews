@@ -1,0 +1,27 @@
+variable,block,source_table,availability_rule,dtype,transformation,missing_pct,used_in_tiers
+num_of_prev_attempts,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,0.0,1-4
+studied_credits,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,0.0,1-4
+days_reg_before_start,other,studentRegistration,0 <= date <= 27,numeric,median imputation with missingness indicator,0.03,1-3
+imd_decile,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,3.73,1-4
+imd_missing,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,0.0,1-4
+age_ord,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,0.0,1-4
+edu_ord,demographic/enrolment,studentInfo,Known at registration; day <= 0,numeric,median imputation with missingness indicator,0.0,1-4
+any_pre_activity,pre-start engagement,studentVle / vle,date < 0,numeric,median imputation with missingness indicator,0.0,1-3
+log_pre_clicks,pre-start engagement,studentVle / vle,date < 0,numeric,median imputation with missingness indicator,0.0,1-3
+log_clicks,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+log_events,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+active_days,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+distinct_sites,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+distinct_types,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+wk1_clicks,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+wk4_clicks,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+weekly_slope,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+clicks_per_active_day,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+days_since_last_activity,early engagement,studentVle / vle,0 <= date <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+has_early_assessment,early assessment,assessments,assessment and submission dates <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+submitted_on_time,early assessment,studentAssessment,assessment and submission dates <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+first_score,early assessment,studentAssessment,assessment and submission dates <= 27,numeric,median imputation with missingness indicator,27.37,1-3
+first_score_missing,early assessment,studentAssessment,assessment and submission dates <= 27,numeric,median imputation with missingness indicator,0.0,1-3
+gender,demographic/enrolment,studentInfo,Known at registration; day <= 0,categorical,one-hot; modal imputation,0.0,1-4
+region,demographic/enrolment,studentInfo,Known at registration; day <= 0,categorical,one-hot; modal imputation,0.0,1-4
+disability,demographic/enrolment,studentInfo,Known at registration; day <= 0,categorical,one-hot; modal imputation,0.0,1-4

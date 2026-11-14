@@ -1,0 +1,16 @@
+feature,mean_rank,rank_sd,min_rank,max_rank,block
+active_days,2.2857142857142856,0.48795003647426655,2.0,3.0,early engagement
+edu_ord,3.0,1.0,2.0,5.0,demographic/enrolment
+has_early_assessment,3.2857142857142856,1.6035674514745464,1.0,5.0,early assessment
+first_score,4.142857142857143,5.398412465054625,1.0,13.0,early assessment
+first_score_missing,4.714285714285714,1.1126972805283737,3.0,6.0,early assessment
+imd_decile,5.571428571428571,0.5345224838248488,5.0,6.0,demographic/enrolment
+days_since_last_activity,7.285714285714286,0.951189731211342,6.0,9.0,early engagement
+gender_F,8.571428571428571,1.511857892036909,7.0,11.0,demographic/enrolment
+wk4_clicks,9.571428571428571,0.5345224838248488,9.0,10.0,early engagement
+studied_credits,10.428571428571429,3.2071349029490928,4.0,13.0,demographic/enrolment
+num_of_prev_attempts,11.0,3.6514837167011076,8.0,17.0,demographic/enrolment
+missingindicator_first_score,11.428571428571429,2.370453040886408,8.0,14.0,early assessment
+log_events,11.857142857142858,2.410295378065479,7.0,14.0,early engagement
+log_pre_clicks,12.714285714285714,1.3801311186847083,11.0,15.0,early engagement
+distinct_types,15.428571428571429,1.3972762620115438,13.0,17.0,early engagement

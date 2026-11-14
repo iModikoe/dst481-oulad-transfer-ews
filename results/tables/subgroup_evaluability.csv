@@ -1,0 +1,7 @@
+attribute,group,n,positives,meets_rule
+gender,reference,15180,6924,True
+gender,protected,12373,5244,True
+gender,missing,0,0,False
+deprivation,reference,15057,6073,True
+deprivation,protected,11467,5796,True
+deprivation,missing,1029,299,True

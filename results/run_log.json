@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-11-13T20:31:00+00:00",
+  "python": "3.14.3",
+  "seed": 20261212,
+  "quick_mode": false,
+  "config": "config.yaml",
+  "finished_utc": "2026-11-13T21:49:52+00:00",
+  "n_registrations_analysed": 27553,
+  "n_registrations_before_estimand_filter": 32593,
+  "n_pairs": 13,
+  "tiers_requested": [
+    2,
+    3,
+    4
+  ],
+  "search_draws": 20,
+  "plan_commit": "5b4e7739a9f86c5f98a43e7d4e166710c111bb49",
+  "implementation_commit": "1e4a0fca34b5fff204632663352cb58ee835152f",
+  "implementation_corrections": [
+    "2026-11-13: restored Tier 1 benchmarks and fairness for staged transfer runs",
+    "2026-11-13: H3 uses the model with highest Tier 1 ROC-AUC, not pooled families",
+    "2026-11-13: enabled mitigation and retained Tier 1 calibration/predictions in staged runs"
+  ]
+}

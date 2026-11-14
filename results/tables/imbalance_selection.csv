@@ -1,0 +1,3 @@
+treatment,model,tier1_aucpr,tier1_roc_auc,tier2_aucpr,tier2_roc_auc,n_tier2_pairs,carried_forward
+No treatment,XGBoost,0.7564255809653917,0.7759932924753805,0.6387348052429312,0.722205771980708,6,False
+Class weighting,XGBoost,0.7564480543700263,0.7764253650069004,0.6404057206872854,0.7223717573141206,6,True
