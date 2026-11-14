@@ -13,7 +13,7 @@ This note accompanies the report without changing the PDF.
    transfer only; Tier 1 provenance remains under results/provenance/.
 4. Successful durations are 1,802.566 and 4,735.570 seconds, totalling about
    1 hour 48 minutes 58 seconds, excluding the interrupted first attempt. This
-   differs slightly from the durations stated in the PDF.
+   timing discrepancy was corrected in report revision (4); the PDF now agrees.
 5. Implementation corrections restored staged baseline/fairness loading, limited
    H3 to the model with highest internal ROC-AUC, enabled staged mitigation, and
    retained internal calibration and predictions. The config remained unchanged.

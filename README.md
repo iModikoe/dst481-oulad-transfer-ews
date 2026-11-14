@@ -70,6 +70,7 @@ records timestamps and SHA-256 hashes. Original download provenance is in
 - [OULAD](https://archive.ics.uci.edu/dataset/349/open+university+learning+analytics+dataset), Kuzilek, Hlosta and Zdrahal, CC BY 4.0.
 - [Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success), Realinho and colleagues, CC BY 4.0.
 
-See [CITATION.md](CITATION.md). No software licence has been added; dataset
-licences do not automatically license the study code. The final report PDF is
-not included in this publication.
+See [CITATION.md](CITATION.md). The code is published for inspection and
+verification; no software reuse licence is granted. Dataset licences do not
+automatically license the study code. The final report PDF is not included in
+this publication.
